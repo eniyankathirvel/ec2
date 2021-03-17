@@ -5,15 +5,6 @@ variable "ami" {
 variable "instance_type" {
 	default = "t2.micro"
 }
-
-variable "aws_access_key" {
-	default = "AKIAVXQY6CLC65OZXJP4"
-}
-
-variable "aws_secret_key" {
-	default = "s4qxVjI/S7Unzv+QkWHFR2YyjBB2xUdL61YysRT7"
-}
-
 variable "key_name" {
 	default = "newkey"
 }
